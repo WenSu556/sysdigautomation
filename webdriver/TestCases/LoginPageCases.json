@@ -1,0 +1,40 @@
+{
+    "domain":["https://eu1.app.sysdig.com", "https://app.sysdigcloud.com", "https://us2.app.sysdig.com", "https://app.au1.sysdig.com"],
+    "emaillogin":
+    {
+        "testcase":
+        [
+            {
+                "input": 
+                {
+                    "username":"ValidEmail@outlook.com", 
+                    "password":"bds",
+                    "comments":"Assume there is a test account can be used in all region, otherwise need to test different in different region, need to update cases"
+                },
+                "expect":"success"
+            }
+        ]        
+    },
+    "regiondropdown": 
+    {
+        "testcase":
+            [
+                {
+                    "input":"EU - eu1.app.sysdig.com", 
+                    "expect":"https://eu1.app.sysdig.com"
+                },
+                {
+                    "input":"US East - app.sysdigcloud.com", 
+                    "expect":"https://app.sysdigcloud.com"
+                },
+                {
+                    "input":"US West - us2.app.sysdig.com", 
+                    "expect":"https://us2.app.sysdig.com"
+                },
+                {
+                    "input": "AP - app.au1.sysdig.com",
+                    "expect":"https://app.au1.sysdig.com"
+                }
+            ]
+    }
+}

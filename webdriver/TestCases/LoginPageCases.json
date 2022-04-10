@@ -12,6 +12,51 @@
                     "comments":"Assume there is a test account can be used in all region, otherwise need to test different in different region, need to update cases"
                 },
                 "expect":"success"
+            },
+            {
+                "input": 
+                {
+                    "username":"InvalidEmail@gmail.co,",
+                    "password":"bdsd",
+                    "comments":"username domain is incorrect, the case will show invalid user name etc"
+                },
+                "expect":"failure"
+            },
+            {
+                "input": 
+                {
+                    "username":"EmailWithoutDomain@",
+                    "password":"sfds",
+                    "comments":"username domain is incorrect, the case will show invalid user name etc"
+                },
+                "expect":"failure"
+            },
+            {
+                "input": 
+                {
+                    "username":"NameNotEmail",
+                    "password":"afds",
+                    "comments":"username domain is incorrect, the case will show invalid user name etc"
+                },
+                "expect":"failure"
+            },
+            {
+                "input": 
+                {
+                    "username":"ValidateEmail@gmail.com",
+                    "password":"",
+                    "comments":"Empty password, should fail"
+                },
+                "expect":"failure"
+            },
+            {
+                "input": 
+                {
+                    "username":"ValidateEmail@gmail.com",
+                    "password":"WrongPassword",
+                    "comments":"Wrong password, login should fail"
+                },
+                "expect":"failure"
             }
         ]        
     },
@@ -36,5 +81,19 @@
                     "expect":"https://app.au1.sysdig.com"
                 }
             ]
+    },    
+    "forgotpwlink":
+    {
+        "expect":"#/forgotPassword"
+    },
+    "googlesignin":
+    {
+        "domain":["https://eu1.app.sysdig.com", "https://app.sysdigcloud.com", "https://us2.app.sysdig.com"],
+        "expect":"https://accounts.google.com/"
+    },
+    "googlesigninexception":
+    {
+        "domian": ["https://app.au1.sysdig.com"],
+        "expect":"errorCode=GOOGLE_OAUTH_NOT_ENABLED"
     }
 }

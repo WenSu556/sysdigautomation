@@ -1,0 +1,106 @@
+INFO:root:Begin testing: test_mixed
+INFO:root:Begin testing: test_email_login
+INFO:root:set_email: ValidEmail@outlook.com
+INFO:root:set_empw: bds
+INFO:root:set_email: InvalidEmail@gmail.co,
+INFO:root:set_empw: bdsd
+INFO:root:set_email: EmailWithoutDomain@
+INFO:root:set_empw: sfds
+INFO:root:set_email: NameNotEmail
+INFO:root:set_empw: afds
+INFO:root:set_email: ValidateEmail@gmail.com
+INFO:root:set_empw: 
+INFO:root:set_email: ValidateEmail@gmail.com
+INFO:root:set_empw: WrongPassword
+INFO:root:Finish testing: test_email_login
+INFO:root:Begin testing: test_forgot_password
+INFO:root:click_forgot_pw
+INFO:root:Finish testing: test_forgot_password
+INFO:root:Begin testing: test_google_signin
+INFO:root:click_google_login
+INFO:root:Finish testing: test_google_signin
+INFO:root:Begin testing: test_change_regions
+INFO:root:set_region: EU - eu1.app.sysdig.com
+INFO:root:set_region: US East - app.sysdigcloud.com
+INFO:root:set_region: US West - us2.app.sysdig.com
+INFO:root:set_region: AP - app.au1.sysdig.com
+INFO:root:Finish testing: test_change_regions
+INFO:root:Begin testing: test_email_login
+INFO:root:set_email: ValidEmail@outlook.com
+INFO:root:set_empw: bds
+INFO:root:set_email: InvalidEmail@gmail.co,
+INFO:root:set_empw: bdsd
+INFO:root:set_email: EmailWithoutDomain@
+INFO:root:set_empw: sfds
+INFO:root:set_email: NameNotEmail
+INFO:root:set_empw: afds
+INFO:root:set_email: ValidateEmail@gmail.com
+INFO:root:set_empw: 
+INFO:root:set_email: ValidateEmail@gmail.com
+INFO:root:set_empw: WrongPassword
+INFO:root:Finish testing: test_email_login
+INFO:root:Begin testing: test_forgot_password
+INFO:root:click_forgot_pw
+INFO:root:Finish testing: test_forgot_password
+INFO:root:Begin testing: test_google_signin
+INFO:root:click_google_login
+INFO:root:Finish testing: test_google_signin
+INFO:root:Begin testing: test_change_regions
+INFO:root:set_region: EU - eu1.app.sysdig.com
+INFO:root:set_region: US East - app.sysdigcloud.com
+INFO:root:set_region: US West - us2.app.sysdig.com
+INFO:root:set_region: AP - app.au1.sysdig.com
+INFO:root:Finish testing: test_change_regions
+INFO:root:Begin testing: test_email_login
+INFO:root:set_email: ValidEmail@outlook.com
+INFO:root:set_empw: bds
+INFO:root:set_email: InvalidEmail@gmail.co,
+INFO:root:set_empw: bdsd
+INFO:root:set_email: EmailWithoutDomain@
+INFO:root:set_empw: sfds
+INFO:root:set_email: NameNotEmail
+INFO:root:set_empw: afds
+INFO:root:set_email: ValidateEmail@gmail.com
+INFO:root:set_empw: 
+INFO:root:set_email: ValidateEmail@gmail.com
+INFO:root:set_empw: WrongPassword
+INFO:root:Finish testing: test_email_login
+INFO:root:Begin testing: test_forgot_password
+INFO:root:click_forgot_pw
+INFO:root:Finish testing: test_forgot_password
+INFO:root:Begin testing: test_google_signin
+INFO:root:click_google_login
+INFO:root:Finish testing: test_google_signin
+INFO:root:Begin testing: test_change_regions
+INFO:root:set_region: EU - eu1.app.sysdig.com
+INFO:root:set_region: US East - app.sysdigcloud.com
+INFO:root:set_region: US West - us2.app.sysdig.com
+INFO:root:set_region: AP - app.au1.sysdig.com
+INFO:root:Finish testing: test_change_regions
+INFO:root:Begin testing: test_email_login
+INFO:root:set_email: ValidEmail@outlook.com
+INFO:root:set_empw: bds
+INFO:root:set_email: InvalidEmail@gmail.co,
+INFO:root:set_empw: bdsd
+INFO:root:set_email: EmailWithoutDomain@
+INFO:root:set_empw: sfds
+INFO:root:set_email: NameNotEmail
+INFO:root:set_empw: afds
+INFO:root:set_email: ValidateEmail@gmail.com
+INFO:root:set_empw: 
+INFO:root:set_email: ValidateEmail@gmail.com
+INFO:root:set_empw: WrongPassword
+INFO:root:Finish testing: test_email_login
+INFO:root:Begin testing: test_forgot_password
+INFO:root:click_forgot_pw
+INFO:root:Finish testing: test_forgot_password
+INFO:root:Begin testing: test_google_signin
+INFO:root:click_google_login
+INFO:root:Finish testing: test_google_signin
+INFO:root:Begin testing: test_change_regions
+INFO:root:set_region: EU - eu1.app.sysdig.com
+INFO:root:set_region: US East - app.sysdigcloud.com
+INFO:root:set_region: US West - us2.app.sysdig.com
+INFO:root:set_region: AP - app.au1.sysdig.com
+INFO:root:Finish testing: test_change_regions
+INFO:root:Finish testing: test_mixed

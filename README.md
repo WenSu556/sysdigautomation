@@ -27,7 +27,7 @@ All the code are under **webdriver** folder, under webdriver folder, there are f
 - Unittest is used to drive automation testing
 
 ## Potential improvements
-**Possible improvements on the tests**
+**Possible improvements on the tests** </br>
 *Because 2 hours is suggested to do the work, there are places can be improved in my mind as below*:
 - Implement a test driver/test suite that can drive all the cases (and new cases)
 - Cover other functions in login page
@@ -35,7 +35,7 @@ All the code are under **webdriver** folder, under webdriver folder, there are f
 - Better automation result report
 - Use a defined logger class to do logging 
 
-**Possible improvements on the login page itself:**
+**Possible improvements on the login page itself:** </br>
 *During writing the cases, I found there can be some improvements for the login page to help deliver better customer experience*
 - Detect user region by the access IP address, and after user input the email adderss, detect if the user is in travel scenario or not, auto-redirect user to the right site
 - For "AP" region, hide "Google" in "Log in with" because "Google OAuth is not enabled"
